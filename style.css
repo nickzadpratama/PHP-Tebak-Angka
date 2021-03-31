@@ -1,0 +1,25 @@
+body {
+  background-image: url(img/gaming-pattern.png);
+}
+
+.judulTebak {
+  color: #ee0000;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 2px 1px black;
+}
+
+.kotak {
+  background-image: url(img/colorful.png);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.tombol a:hover img {
+  transform: scale(1.1);
+}
+.tombol a:active img {
+  transform: scale(0.9);
+}
